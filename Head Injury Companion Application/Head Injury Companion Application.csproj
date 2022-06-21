@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Head_Injury_Companion_Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="wwwroot\Pages\Error.cshtml.cs" />
+    <Compile Include="wwwroot\Pages\Index.cshtml.cs" />
+    <Compile Include="wwwroot\Pages\Privacy.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Pages\alarm.mp3" />
+    <None Include="wwwroot\Pages\ApplicationHelpAndSupport.html" />
+    <None Include="wwwroot\Pages\ApplicationHelpAndSupport_groups_archive" />
+    <None Include="wwwroot\Pages\assets\brushing-teeth.PNG" />
+    <None Include="wwwroot\Pages\assets\checklist.png" />
+    <None Include="wwwroot\Pages\assets\making-cup-of-tea.PNG" />
+    <None Include="wwwroot\Pages\assets\making-sandwich.PNG" />
+    <None Include="wwwroot\Pages\assets\notepad.png" />
+    <None Include="wwwroot\Pages\assets\post-it-note.png" />
+    <None Include="wwwroot\Pages\assets\question-mark.png" />
+    <None Include="wwwroot\Pages\assets\speech-bubble.png" />
+    <None Include="wwwroot\Pages\assets\washing-up.PNG" />
+    <None Include="wwwroot\Pages\DailyLivingTaskHelp.html" />
+    <None Include="wwwroot\Pages\DailyLivingTaskHelpFunctionality.js" />
+    <None Include="wwwroot\Pages\googbase_min.js" />
+    <None Include="wwwroot\Pages\gwdattached_min.js" />
+    <None Include="wwwroot\Pages\gwdattached_style.css" />
+    <None Include="wwwroot\Pages\gwdgesture_min.js" />
+    <None Include="wwwroot\Pages\gwdgesture_style.css" />
+    <None Include="wwwroot\Pages\gwdgooglead_min.js" />
+    <None Include="wwwroot\Pages\gwdgooglead_style.css" />
+    <None Include="wwwroot\Pages\gwdimageeffect_min.js" />
+    <None Include="wwwroot\Pages\gwdimageeffect_style.css" />
+    <None Include="wwwroot\Pages\gwdimage_min.js" />
+    <None Include="wwwroot\Pages\gwdimage_style.css" />
+    <None Include="wwwroot\Pages\gwdpagedeck_min.js" />
+    <None Include="wwwroot\Pages\gwdpagedeck_style.css" />
+    <None Include="wwwroot\Pages\gwdpage_min.js" />
+    <None Include="wwwroot\Pages\gwdpage_style.css" />
+    <None Include="wwwroot\Pages\gwdtexthelper_min.js" />
+    <None Include="wwwroot\Pages\gwd_webcomponents_v1_min.js" />
+    <None Include="wwwroot\Pages\homepage.html" />
+    <None Include="wwwroot\Pages\MyNotes.html" />
+    <None Include="wwwroot\Pages\MyNotesFunctionality.js" />
+    <None Include="wwwroot\Pages\MyNotesStyle.css" />
+    <None Include="wwwroot\Pages\MyReminders.html" />
+    <None Include="wwwroot\Pages\MyRemindersFunctionality.js" />
+    <None Include="wwwroot\Pages\MyRemindersStyle.css" />
+    <None Include="wwwroot\Pages\onlinenote.php" />
+    <None Include="wwwroot\Pages\onlinenotes.html" />
+    <None Include="wwwroot\Pages\Shared\_Layout.cshtml.css" />
+    <None Include="wwwroot\Pages\TipsAndAdvice.html" />
+  </ItemGroup>
+
+</Project>

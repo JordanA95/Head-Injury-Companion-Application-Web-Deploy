@@ -1,0 +1,19 @@
+﻿body {
+    background: rgb(86, 41, 250);
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    color: #fff;
+}
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 210px;
+    height: 110px;
+    background-color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
